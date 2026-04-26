@@ -1,0 +1,813 @@
+{
+  "version": 1,
+  "videos": [
+    {
+      "id": "Ezv85LMFx2E",
+      "title": "Amazing Things Happen! — Autism for Kids",
+      "channel": "Alexander & TilBrook",
+      "category": "autism",
+      "description": "A beautifully animated introduction to autism that builds understanding and acceptance.",
+      "youtubeURL": "https://www.youtube.com/watch?v=Ezv85LMFx2E"
+    },
+    {
+      "id": "K2P4Ed6G3gw",
+      "title": "Sensory Overload — What It Feels Like",
+      "channel": "National Autistic Society",
+      "category": "autism",
+      "description": "An animation showing what sensory overload is like for autistic people.",
+      "youtubeURL": "https://www.youtube.com/watch?v=K2P4Ed6G3gw"
+    },
+    {
+      "id": "DrrXMO-NrCM",
+      "title": "Autism Explained for Kids",
+      "channel": "Professor Puppet",
+      "category": "autism",
+      "description": "A friendly, self-esteem boosting explanation of autism for young children.",
+      "youtubeURL": "https://www.youtube.com/watch?v=DrrXMO-NrCM"
+    },
+    {
+      "id": "d2mlWUzA0B4",
+      "title": "What Is Autism Spectrum Disorder?",
+      "channel": "Peekaboo Kidz",
+      "category": "autism",
+      "description": "Dr Binocs explains autism spectrum disorder in a fun, kid-friendly way.",
+      "youtubeURL": "https://www.youtube.com/watch?v=d2mlWUzA0B4"
+    },
+    {
+      "id": "AWrLpZe2508",
+      "title": "Daniel Tiger Meets a Friend with Autism",
+      "channel": "PBS Kids",
+      "category": "autism",
+      "description": "Daniel Tiger meets Max, who is autistic, and learns how to be a thoughtful friend.",
+      "youtubeURL": "https://www.youtube.com/watch?v=AWrLpZe2508"
+    },
+    {
+      "id": "utFUTx-z-xs",
+      "title": "What Sensory Overload Feels Like — How to Help",
+      "channel": "Autism Explained",
+      "category": "autism",
+      "description": "Understand what autistic children experience during sensory overload and how to help.",
+      "youtubeURL": "https://www.youtube.com/watch?v=utFUTx-z-xs"
+    },
+    {
+      "id": "dUbsyd8Fnyw",
+      "title": "Fast Facts About Autism for Kids",
+      "channel": "Autism Explained",
+      "category": "autism",
+      "description": "Quick, friendly facts about autism for children on World Autism Awareness Day.",
+      "youtubeURL": "https://www.youtube.com/watch?v=dUbsyd8Fnyw"
+    },
+    {
+      "id": "tKSNbIhbzMY",
+      "title": "Daniel Tiger — Guess the Feeling",
+      "channel": "PBS Kids",
+      "category": "autism",
+      "description": "Daniel Tiger's neighbourhood shows kids how to take turns and communicate.",
+      "youtubeURL": "https://www.youtube.com/watch?v=tKSNbIhbzMY"
+    },
+    {
+      "id": "oVpjFa6-jPY",
+      "title": "Sensory Overload and Autism Explained",
+      "channel": "Autism Support",
+      "category": "autism",
+      "description": "Do you feel overwhelmed in busy environments? Learn what sensory overload is and how to manage it.",
+      "youtubeURL": "https://www.youtube.com/watch?v=oVpjFa6-jPY"
+    },
+    {
+      "id": "TPJW0gusNu8",
+      "title": "Recognising Sensory Overload — Tips for Kids",
+      "channel": "Raising Children",
+      "category": "autism",
+      "description": "Learn to spot sensory overload signs and discover calming strategies.",
+      "youtubeURL": "https://www.youtube.com/watch?v=TPJW0gusNu8"
+    },
+    {
+      "id": "DSmZvjFt-Dg",
+      "title": "Daniel Tiger — Lemonade Stand and Feelings",
+      "channel": "PBS Kids",
+      "category": "autism",
+      "description": "Daniel makes a chart to ask friends how they like to say hello — great social skill.",
+      "youtubeURL": "https://www.youtube.com/watch?v=DSmZvjFt-Dg"
+    },
+    {
+      "id": "Rzw-Oir8UPw",
+      "title": "Pedro the Penguin — Cosmic Kids Yoga",
+      "channel": "Cosmic Kids Yoga",
+      "category": "yoga",
+      "description": "A fun yoga adventure about a penguin that builds focus, balance, and calm.",
+      "youtubeURL": "https://www.youtube.com/watch?v=Rzw-Oir8UPw"
+    },
+    {
+      "id": "LhYtcadR9nw",
+      "title": "Squish the Fish — Cosmic Kids Yoga",
+      "channel": "Cosmic Kids Yoga",
+      "category": "yoga",
+      "description": "Follow Jaime on a colourful undersea yoga adventure with stretches and poses.",
+      "youtubeURL": "https://www.youtube.com/watch?v=LhYtcadR9nw"
+    },
+    {
+      "id": "9x9SCgFSmaY",
+      "title": "Encanto — Cosmic Kids Yoga Adventure",
+      "channel": "Cosmic Kids Yoga",
+      "category": "yoga",
+      "description": "Bring the magic of Encanto to life through fun yoga poses designed for kids.",
+      "youtubeURL": "https://www.youtube.com/watch?v=9x9SCgFSmaY"
+    },
+    {
+      "id": "fTzXFPh6CPI",
+      "title": "Melting Exercise — Calm Down with GoNoodle",
+      "channel": "GoNoodle",
+      "category": "yoga",
+      "description": "Melt away icky feelings with this gentle guided meditation from GoNoodle.",
+      "youtubeURL": "https://www.youtube.com/watch?v=fTzXFPh6CPI"
+    },
+    {
+      "id": "bRkILioT_NA",
+      "title": "Learn to Destress — Breathing Exercises",
+      "channel": "GoNoodle",
+      "category": "yoga",
+      "description": "Gain control of stressful energy with this calming GoNoodle breathing exercise.",
+      "youtubeURL": "https://www.youtube.com/watch?v=bRkILioT_NA"
+    },
+    {
+      "id": "wgghPYRoMqE",
+      "title": "Bear Breathe — Meditation for Kids",
+      "channel": "GoNoodle",
+      "category": "yoga",
+      "description": "Calm your mind and relax with the bear breath exercise from GoNoodle.",
+      "youtubeURL": "https://www.youtube.com/watch?v=wgghPYRoMqE"
+    },
+    {
+      "id": "ixeuFRqzlNk",
+      "title": "Swirling — Mindfulness Meditation for Kids",
+      "channel": "GoNoodle",
+      "category": "yoga",
+      "description": "Focus your breathing and settle swirling thoughts with this calming GoNoodle session.",
+      "youtubeURL": "https://www.youtube.com/watch?v=ixeuFRqzlNk"
+    },
+    {
+      "id": "ABPOj3wSrvI",
+      "title": "Relaxation Music for Kids — Quiet Time",
+      "channel": "New Horizon",
+      "category": "yoga",
+      "description": "Relaxing music perfect for quiet time, meditation, yoga and nap time.",
+      "youtubeURL": "https://www.youtube.com/watch?v=ABPOj3wSrvI"
+    },
+    {
+      "id": "R240eC5KTEA",
+      "title": "Relaxing Music — Your Secret Treehouse",
+      "channel": "New Horizon Kids",
+      "category": "yoga",
+      "description": "Gentle relaxing music for children — ideal for winding down and calming the mind.",
+      "youtubeURL": "https://www.youtube.com/watch?v=R240eC5KTEA"
+    },
+    {
+      "id": "XgxRHa26JLo",
+      "title": "Relaxing Music — Be Calm and Focused",
+      "channel": "Kidzen",
+      "category": "yoga",
+      "description": "Soft piano music to help children feel calm, focused and ready to learn.",
+      "youtubeURL": "https://www.youtube.com/watch?v=XgxRHa26JLo"
+    },
+    {
+      "id": "ZbSZCBYKfHk",
+      "title": "Good Manners — Hello, Please, Thank You",
+      "channel": "Happy Learning",
+      "category": "socialSkills",
+      "description": "What it means to be a good friend — sharing, kindness and solving problems together.",
+      "youtubeURL": "https://www.youtube.com/watch?v=ZbSZCBYKfHk"
+    },
+    {
+      "id": "TPhabSkn3sM",
+      "title": "Please, Thank You and Asking Permission",
+      "channel": "Happy Learning",
+      "category": "socialSkills",
+      "description": "Daniel learns to be kind by sharing his toys with friends.",
+      "youtubeURL": "https://www.youtube.com/watch?v=TPhabSkn3sM"
+    },
+    {
+      "id": "o1gJXpzoMqY",
+      "title": "Saying Sorry and Taking Turns",
+      "channel": "Happy Learning",
+      "category": "socialSkills",
+      "description": "Friends play, share and dance together — Elmo and Rosita show how it's done.",
+      "youtubeURL": "https://www.youtube.com/watch?v=o1gJXpzoMqY"
+    },
+    {
+      "id": "cgEPaw3cBtk",
+      "title": "Good Manners — Kindness, Sharing, Honesty",
+      "channel": "Animated Classroom",
+      "category": "socialSkills",
+      "description": "Learning that patience and waiting for your turn is a great habit.",
+      "youtubeURL": "https://www.youtube.com/watch?v=cgEPaw3cBtk"
+    },
+    {
+      "id": "hDp6GflzlCE",
+      "title": "Being a Thoughtful Friend — Social Story",
+      "channel": "Social Stories",
+      "category": "socialSkills",
+      "description": "Daniel Tiger learns that saying the truth is an important and kind thing to do.",
+      "youtubeURL": "https://www.youtube.com/watch?v=hDp6GflzlCE"
+    },
+    {
+      "id": "CrmJeKXyZ_k",
+      "title": "Let's Be Friends — Inclusivity for Kids",
+      "channel": "Pants Bear",
+      "category": "socialSkills",
+      "description": "Sharing is caring — Daniel shows that sharing means you really care.",
+      "youtubeURL": "https://www.youtube.com/watch?v=CrmJeKXyZ_k"
+    },
+    {
+      "id": "fsMEcXNLnDA",
+      "title": "How to Be a Good Friend — Roys Bedoys",
+      "channel": "Woohoo Storytime",
+      "category": "socialSkills",
+      "description": "Daniel Tiger learns that being honest and kind go hand in hand.",
+      "youtubeURL": "https://www.youtube.com/watch?v=fsMEcXNLnDA"
+    },
+    {
+      "id": "G6YkNazhdFU",
+      "title": "Friends and Feelings — Expressing Emotions",
+      "channel": "PBS Kids for Teachers",
+      "category": "communication",
+      "description": "Putting feelings into words — a key communication skill for young kids.",
+      "youtubeURL": "https://www.youtube.com/watch?v=G6YkNazhdFU"
+    },
+    {
+      "id": "vG1rVhP2JsE",
+      "title": "Active Listening Skills for Kids",
+      "channel": "Kids Healthy Minds",
+      "category": "communication",
+      "description": "How to listen properly — eye contact, nodding, and asking questions.",
+      "youtubeURL": "https://www.youtube.com/watch?v=vG1rVhP2JsE"
+    },
+    {
+      "id": "gHHGovFD2R0",
+      "title": "Asking for Help — Social Scripts",
+      "channel": "Social Skill Builder",
+      "category": "communication",
+      "description": "Step-by-step scripts for asking a teacher or friend for help.",
+      "youtubeURL": "https://www.youtube.com/watch?v=gHHGovFD2R0"
+    },
+    {
+      "id": "QKXW6XGvC8E",
+      "title": "Understanding Body Language",
+      "channel": "Social Skills for Kids",
+      "category": "communication",
+      "description": "Reading facial expressions, gestures, and posture to understand people.",
+      "youtubeURL": "https://www.youtube.com/watch?v=QKXW6XGvC8E"
+    },
+    {
+      "id": "GN1nRuQxHos",
+      "title": "Saying No Politely",
+      "channel": "KidSocials",
+      "category": "communication",
+      "description": "How to say no kindly without hurting feelings or causing conflict.",
+      "youtubeURL": "https://www.youtube.com/watch?v=GN1nRuQxHos"
+    },
+    {
+      "id": "7OIvIZ5U_Yk",
+      "title": "Conversation Starters for Kids",
+      "channel": "Social Thinking",
+      "category": "communication",
+      "description": "Easy ways to start a conversation with someone new or unfamiliar.",
+      "youtubeURL": "https://www.youtube.com/watch?v=7OIvIZ5U_Yk"
+    },
+    {
+      "id": "OsFJKioa_5c",
+      "title": "Pancakes — Kids Cooking Recipe",
+      "channel": "BBC Good Food",
+      "category": "cooking",
+      "description": "Two kids show you how to make delicious pancakes — perfect for Shrove Tuesday or any day.",
+      "youtubeURL": "https://www.youtube.com/watch?v=OsFJKioa_5c"
+    },
+    {
+      "id": "um7mkRFVK7s",
+      "title": "Easy Healthy Sandwich for Kids",
+      "channel": "Kids Kitchen",
+      "category": "cooking",
+      "description": "A super easy sandwich you can make quickly at home with everyday ingredients.",
+      "youtubeURL": "https://www.youtube.com/watch?v=um7mkRFVK7s"
+    },
+    {
+      "id": "MtpZJvdZYQY",
+      "title": "Fruit Salad — Kids Make It!",
+      "channel": "Highlights",
+      "category": "cooking",
+      "description": "Make a colourful, healthy fruit salad — chopping, mixing and enjoying!",
+      "youtubeURL": "https://www.youtube.com/watch?v=MtpZJvdZYQY"
+    },
+    {
+      "id": "O5PgHnlDhQg",
+      "title": "Fruit Salad Kids Cooking",
+      "channel": "Kids Cooking",
+      "category": "cooking",
+      "description": "Let's learn to make a fun, easy and delicious healthy fruit salad together.",
+      "youtubeURL": "https://www.youtube.com/watch?v=O5PgHnlDhQg"
+    },
+    {
+      "id": "iZB9fgGY1kI",
+      "title": "6 Easy Healthy Sandwich Recipes for Kids",
+      "channel": "Yummy Lunchbox",
+      "category": "cooking",
+      "description": "Six great sandwich ideas kids can make themselves for breakfast or lunchbox.",
+      "youtubeURL": "https://www.youtube.com/watch?v=iZB9fgGY1kI"
+    },
+    {
+      "id": "Tqnv1vaNR_o",
+      "title": "How to Teach Kids Freestyle Swimming",
+      "channel": "SwimtoFly",
+      "category": "sports",
+      "description": "Teach kids freestyle swimming in 10 easy steps with clear demonstrations.",
+      "youtubeURL": "https://www.youtube.com/watch?v=Tqnv1vaNR_o"
+    },
+    {
+      "id": "fXgh56kisTg",
+      "title": "Learn Freestyle Swimming — Beginners",
+      "channel": "SwimtoFly",
+      "category": "sports",
+      "description": "Learn to swim freestyle in 3 simple steps — great for complete beginners.",
+      "youtubeURL": "https://www.youtube.com/watch?v=fXgh56kisTg"
+    },
+    {
+      "id": "Kmx0lwCl0L8",
+      "title": "Soccer Dribbling Skills for Kids",
+      "channel": "Simply Soccer",
+      "category": "sports",
+      "description": "Soccer dribbling tutorial for beginners and kids — master ball control step by step.",
+      "youtubeURL": "https://www.youtube.com/watch?v=Kmx0lwCl0L8"
+    },
+    {
+      "id": "OIm6xrR0QRg",
+      "title": "Soccer Dribbling Drills for Kids",
+      "channel": "Simply Soccer",
+      "category": "sports",
+      "description": "Fun soccer dribbling drills for young players to improve their skills.",
+      "youtubeURL": "https://www.youtube.com/watch?v=OIm6xrR0QRg"
+    },
+    {
+      "id": "DVAxX41WBgQ",
+      "title": "How to Teach Dribbling in Soccer PE",
+      "channel": "Teachers Pay Teachers",
+      "category": "sports",
+      "description": "Teach the fundamentals of soccer dribbling with small touches for kids aged K–6.",
+      "youtubeURL": "https://www.youtube.com/watch?v=DVAxX41WBgQ"
+    },
+    {
+      "id": "mAvuom42NyY",
+      "title": "Math Antics — Multi-Digit Addition",
+      "channel": "Math Antics",
+      "category": "math",
+      "description": "Step-by-step multi-digit addition with clear visual examples from Math Antics.",
+      "youtubeURL": "https://www.youtube.com/watch?v=mAvuom42NyY"
+    },
+    {
+      "id": "KGMf314LUc0",
+      "title": "Math Antics — Basic Division",
+      "channel": "Math Antics",
+      "category": "math",
+      "description": "A clear introduction to division — what it means and how to do it.",
+      "youtubeURL": "https://www.youtube.com/watch?v=KGMf314LUc0"
+    },
+    {
+      "id": "I1u3pM9g9o8",
+      "title": "Math Antics — What Are Fractions?",
+      "channel": "Math Antics",
+      "category": "math",
+      "description": "An introduction to fractions — what they mean and how to think about them.",
+      "youtubeURL": "https://www.youtube.com/watch?v=I1u3pM9g9o8"
+    },
+    {
+      "id": "un-kKDVFlQg",
+      "title": "Times Tables Songs 1–12",
+      "channel": "Numberock",
+      "category": "math",
+      "description": "Catchy animated multiplication table songs from 1 to 12 — perfect for memorising.",
+      "youtubeURL": "https://www.youtube.com/watch?v=un-kKDVFlQg"
+    },
+    {
+      "id": "deVYbxmDCvU",
+      "title": "Times Tables Songs 6, 7, 8 & 9",
+      "channel": "Numberock",
+      "category": "math",
+      "description": "Fun multiplication songs for the trickier times tables — 6, 7, 8 and 9.",
+      "youtubeURL": "https://www.youtube.com/watch?v=deVYbxmDCvU"
+    },
+    {
+      "id": "vD-ZwMjRDPU",
+      "title": "Water's Amazing Journey — The Water Cycle",
+      "channel": "SciShow Kids",
+      "category": "science",
+      "description": "Squeaks and friends put on a play to explain the water cycle — evaporation, rain and more.",
+      "youtubeURL": "https://www.youtube.com/watch?v=vD-ZwMjRDPU"
+    },
+    {
+      "id": "Qd6nLM2QlWw",
+      "title": "Exploring Our Solar System — Planets for Kids",
+      "channel": "Free School",
+      "category": "science",
+      "description": "An in-depth introduction to the solar system and every planet in it.",
+      "youtubeURL": "https://www.youtube.com/watch?v=Qd6nLM2QlWw"
+    },
+    {
+      "id": "ASQkz4XaphU",
+      "title": "The Solar System Planets — Educational Video",
+      "channel": "Happy Learning",
+      "category": "science",
+      "description": "Discover every planet in our solar system with fun facts and colourful animations.",
+      "youtubeURL": "https://www.youtube.com/watch?v=ASQkz4XaphU"
+    },
+    {
+      "id": "S410nuPSDdE",
+      "title": "What Is the Water Cycle?",
+      "channel": "Science for Kids",
+      "category": "science",
+      "description": "A clear explanation of the water cycle — also known as the hydrological cycle.",
+      "youtubeURL": "https://www.youtube.com/watch?v=S410nuPSDdE"
+    },
+    {
+      "id": "e8YzKyot4Pc",
+      "title": "Planets in the Solar System for Kids",
+      "channel": "Learn Bright",
+      "category": "science",
+      "description": "Learn about all 8 planets, the Sun and why Saturn has rings.",
+      "youtubeURL": "https://www.youtube.com/watch?v=e8YzKyot4Pc"
+    },
+    {
+      "id": "nFZhbEi19M8",
+      "title": "Baking Soda Volcano Experiment",
+      "channel": "Mocomi",
+      "category": "experiments",
+      "description": "Make a baking soda and vinegar volcano — a classic and exciting science experiment.",
+      "youtubeURL": "https://www.youtube.com/watch?v=nFZhbEi19M8"
+    },
+    {
+      "id": "dIvXnqQaSwM",
+      "title": "Cool Volcano with Vinegar and Baking Soda",
+      "channel": "Science Fun",
+      "category": "experiments",
+      "description": "Erupting volcano science experiment exploring chemical reactions — easy to do at home.",
+      "youtubeURL": "https://www.youtube.com/watch?v=dIvXnqQaSwM"
+    },
+    {
+      "id": "x8--3M7GGCA",
+      "title": "Easy Baking Soda Volcano Eruption",
+      "channel": "Home Science",
+      "category": "experiments",
+      "description": "Quick and easy volcano experiment that explores an exciting chemical reaction.",
+      "youtubeURL": "https://www.youtube.com/watch?v=x8--3M7GGCA"
+    },
+    {
+      "id": "3pudPGVNnM4",
+      "title": "Elephant Toothpaste and Baking Soda Experiments",
+      "channel": "Science Fun for Kids",
+      "category": "experiments",
+      "description": "Make elephant toothpaste and baking soda experiments — fun chemistry for kids.",
+      "youtubeURL": "https://www.youtube.com/watch?v=3pudPGVNnM4"
+    },
+    {
+      "id": "v5CjIhVvS0w",
+      "title": "Erupting Experiments — Volcano and More",
+      "channel": "Kylee Makes It",
+      "category": "experiments",
+      "description": "Make erupting experiments including baking soda and vinegar and elephant toothpaste.",
+      "youtubeURL": "https://www.youtube.com/watch?v=v5CjIhVvS0w"
+    },
+    {
+      "id": "qk5xuWNFUvY",
+      "title": "Relaxing Sleeping Music — Soothing Meditation",
+      "channel": "Meditation Relax Music",
+      "category": "music",
+      "description": "Calming, relaxing music for sleep and stress relief — suitable for all ages.",
+      "youtubeURL": "https://www.youtube.com/watch?v=qk5xuWNFUvY"
+    },
+    {
+      "id": "yMAUEkIyxGg",
+      "title": "12 Hours Relaxing Music — Embrace of Corals",
+      "channel": "Kidzen",
+      "category": "music",
+      "description": "Soft piano music with beautiful coral imagery — perfect for sleep and relaxation.",
+      "youtubeURL": "https://www.youtube.com/watch?v=yMAUEkIyxGg"
+    },
+    {
+      "id": "xX8ZhEO3Va4",
+      "title": "Relaxing Sleep Music — Dreams Come True",
+      "channel": "Kidzen",
+      "category": "music",
+      "description": "Gentle piano music for kids and babies with dreamy nature visuals.",
+      "youtubeURL": "https://www.youtube.com/watch?v=xX8ZhEO3Va4"
+    },
+    {
+      "id": "vuipjPQ6Tcg",
+      "title": "Forest of Dreams — Sleep Meditation Music",
+      "channel": "New Horizon",
+      "category": "music",
+      "description": "Relaxing forest meditation music to help children unwind and drift off peacefully.",
+      "youtubeURL": "https://www.youtube.com/watch?v=vuipjPQ6Tcg"
+    },
+    {
+      "id": "qFZKK7K52uQ",
+      "title": "Relax Music — Study, Sleep, Meditation",
+      "channel": "Meditation Relax",
+      "category": "music",
+      "description": "Soft 528Hz music for stress relief, study and inner peace — all ages.",
+      "youtubeURL": "https://www.youtube.com/watch?v=qFZKK7K52uQ"
+    },
+    {
+      "id": "EJPuP50_ZqM",
+      "title": "How to Paint a Beautiful Landscape for Kids",
+      "channel": "Art For Kids Hub",
+      "category": "arts",
+      "description": "Follow along and learn to paint a landscape — looks challenging but is super fun!",
+      "youtubeURL": "https://www.youtube.com/watch?v=EJPuP50_ZqM"
+    },
+    {
+      "id": "lIOjk00njxM",
+      "title": "How to Draw a Waterfall Landscape",
+      "channel": "Art For Kids Hub",
+      "category": "arts",
+      "description": "Learn to draw a beautiful waterfall landscape step by step.",
+      "youtubeURL": "https://www.youtube.com/watch?v=lIOjk00njxM"
+    },
+    {
+      "id": "yCq9bqklnCw",
+      "title": "How to Draw a Landscape for Kids",
+      "channel": "Draw So Cute",
+      "category": "arts",
+      "description": "Simple mountain scenery landscape drawing for beginners and kids.",
+      "youtubeURL": "https://www.youtube.com/watch?v=yCq9bqklnCw"
+    },
+    {
+      "id": "ye23IkKlc-4",
+      "title": "How to Paint With Watercolour for Kids",
+      "channel": "Art For Kids Hub",
+      "category": "arts",
+      "description": "Learn to use watercolour paints and create a beautiful fall leaf painting.",
+      "youtubeURL": "https://www.youtube.com/watch?v=ye23IkKlc-4"
+    },
+    {
+      "id": "HizPR6EV1VQ",
+      "title": "3 Fun Watercolour Techniques for Kids",
+      "channel": "The Kitchen Table Classroom",
+      "category": "arts",
+      "description": "Try three different watercolour techniques — wet in wet, plastic wrap and more.",
+      "youtubeURL": "https://www.youtube.com/watch?v=HizPR6EV1VQ"
+    },
+    {
+      "id": "YgZNMLXbAFY",
+      "title": "Teach Your Child to Swim Freestyle",
+      "channel": "SwimtoFly",
+      "category": "activities",
+      "description": "Teach your child freestyle swimming in one lesson with clear step-by-step guidance.",
+      "youtubeURL": "https://www.youtube.com/watch?v=YgZNMLXbAFY"
+    },
+    {
+      "id": "cYnduVdgLsw",
+      "title": "Teach Kids Freestyle Swimming",
+      "channel": "SwimtoFly",
+      "category": "activities",
+      "description": "How to teach kids to swim freestyle — a complete tutorial with drills.",
+      "youtubeURL": "https://www.youtube.com/watch?v=cYnduVdgLsw"
+    },
+    {
+      "id": "nykBWOxS5k0",
+      "title": "Watercolour Mountain Sunset — Kids Tutorial",
+      "channel": "Art For Kids Hub",
+      "category": "activities",
+      "description": "Learn to paint a beautiful sunset mountain landscape in watercolours.",
+      "youtubeURL": "https://www.youtube.com/watch?v=nykBWOxS5k0"
+    },
+    {
+      "id": "v368l7nAltE",
+      "title": "How to Draw a Landscape — Art Lesson",
+      "channel": "Patty Cake",
+      "category": "activities",
+      "description": "A fun art lesson teaching kids how to draw a landscape using lines and layers.",
+      "youtubeURL": "https://www.youtube.com/watch?v=v368l7nAltE"
+    },
+    {
+      "id": "v7fmJ5VlRrA",
+      "title": "అమ్మ కథ — Amma Story",
+      "channel": "Telugu Stories for Kids",
+      "category": "telugu",
+      "description": "A heartwarming Telugu story about a mother's love — great for listening practice.",
+      "youtubeURL": "https://www.youtube.com/watch?v=v7fmJ5VlRrA"
+    },
+    {
+      "id": "uKVmQcuDMbU",
+      "title": "పంచతంత్రం — Panchatantra Stories",
+      "channel": "Panchatantra Telugu",
+      "category": "telugu",
+      "description": "Classic Panchatantra animal fables in Telugu — wisdom and fun for kids.",
+      "youtubeURL": "https://www.youtube.com/watch?v=uKVmQcuDMbU"
+    },
+    {
+      "id": "hR8AoJH_2rI",
+      "title": "తెలుగు నైతిక కథలు — Moral Stories",
+      "channel": "Telugu Moral Stories",
+      "category": "telugu",
+      "description": "Short Telugu stories teaching values like honesty, kindness and courage.",
+      "youtubeURL": "https://www.youtube.com/watch?v=hR8AoJH_2rI"
+    },
+    {
+      "id": "8bKhxP08RFk",
+      "title": "తెలుగు అక్షరమాల — Telugu Alphabet",
+      "channel": "Telugu Alphabet for Kids",
+      "category": "telugu",
+      "description": "Learn the Telugu alphabet with fun animations and pronunciation guides.",
+      "youtubeURL": "https://www.youtube.com/watch?v=8bKhxP08RFk"
+    },
+    {
+      "id": "J1CWMU9Oo6s",
+      "title": "తెలుగు లెక్కలు — Telugu Numbers",
+      "channel": "Telugu Learning for Kids",
+      "category": "telugu",
+      "description": "Learn numbers 1–20 in Telugu with catchy songs and colourful visuals.",
+      "youtubeURL": "https://www.youtube.com/watch?v=J1CWMU9Oo6s"
+    },
+    {
+      "id": "wPD4fREjEiU",
+      "title": "తెలుగు పాటలు — Telugu Rhymes",
+      "channel": "Telugu Rhymes TV",
+      "category": "telugu",
+      "description": "Popular Telugu nursery rhymes and songs for young children.",
+      "youtubeURL": "https://www.youtube.com/watch?v=wPD4fREjEiU"
+    },
+    {
+      "id": "E2X8urRLHLk",
+      "title": "చిన్నారి కథలు — Stories for Little Ones",
+      "channel": "Chinari Stories",
+      "category": "telugu",
+      "description": "Short, gentle Telugu stories designed especially for young children.",
+      "youtubeURL": "https://www.youtube.com/watch?v=E2X8urRLHLk"
+    },
+    {
+      "id": "tJMsyBH_Mvk",
+      "title": "రైతు కథ — The Farmer Story",
+      "channel": "Telugu Kids",
+      "category": "telugu",
+      "description": "A classic Telugu story about a hardworking farmer and nature's gifts.",
+      "youtubeURL": "https://www.youtube.com/watch?v=tJMsyBH_Mvk"
+    },
+    {
+      "id": "9BNQ2zKGkWI",
+      "title": "గణేశ స్తోత్రం — Ganesha Stotram for Kids",
+      "channel": "Devotional Kids Telugu",
+      "category": "teluguDevotional",
+      "description": "Simple Ganesha prayers and stotrams sung slowly so children can follow along and learn.",
+      "youtubeURL": "https://www.youtube.com/watch?v=9BNQ2zKGkWI"
+    },
+    {
+      "id": "TUcDMHKSMXQ",
+      "title": "వేంకటేశ సుప్రభాతం — Suprabhatam for Children",
+      "channel": "Tirumala Devotional",
+      "category": "teluguDevotional",
+      "description": "Venkateshwara Suprabhatam with Telugu lyrics — a gentle morning prayer for kids.",
+      "youtubeURL": "https://www.youtube.com/watch?v=TUcDMHKSMXQ"
+    },
+    {
+      "id": "E6lmQOVz-wQ",
+      "title": "సరస్వతి స్తోత్రం — Saraswati Prayer",
+      "channel": "Telugu Bhakti Kids",
+      "category": "teluguDevotional",
+      "description": "Prayers to Goddess Saraswati for knowledge and learning — ideal before study time.",
+      "youtubeURL": "https://www.youtube.com/watch?v=E6lmQOVz-wQ"
+    },
+    {
+      "id": "8PEfNl_3YNo",
+      "title": "హనుమాన్ చాలీసా తెలుగు — Hanuman Chalisa Telugu",
+      "channel": "Hanuman Bhakti Telugu",
+      "category": "teluguDevotional",
+      "description": "Hanuman Chalisa with Telugu subtitles and slow recitation — great for memorisation.",
+      "youtubeURL": "https://www.youtube.com/watch?v=8PEfNl_3YNo"
+    },
+    {
+      "id": "q1DVOT-jYv0",
+      "title": "లక్ష్మీ అష్టోత్తరం — Lakshmi Ashtottaram",
+      "channel": "Telugu Devotional World",
+      "category": "teluguDevotional",
+      "description": "108 names of Goddess Lakshmi recited clearly in Telugu — teaches devotion and Sanskrit sounds.",
+      "youtubeURL": "https://www.youtube.com/watch?v=q1DVOT-jYv0"
+    },
+    {
+      "id": "5rS4RRBpVJQ",
+      "title": "బాల రామాయణం — Bala Ramayanam for Kids",
+      "channel": "Ramayanam Telugu",
+      "category": "teluguDevotional",
+      "description": "The story of Lord Rama told simply in Telugu for young children — values of dharma and courage.",
+      "youtubeURL": "https://www.youtube.com/watch?v=5rS4RRBpVJQ"
+    },
+    {
+      "id": "mzrkMuBXFBg",
+      "title": "శివ పంచాక్షరి — Shiva Panchakshara Stotram",
+      "channel": "Shiva Bhakti Telugu",
+      "category": "teluguDevotional",
+      "description": "Namah Shivaya mantra with meaning explained in Telugu — perfect for daily prayer practice.",
+      "youtubeURL": "https://www.youtube.com/watch?v=mzrkMuBXFBg"
+    },
+    {
+      "id": "2SHpSMOkRwA",
+      "title": "దుర్గా స్తోత్రం — Durga Stotram Telugu",
+      "channel": "Shakti Bhakti Kids",
+      "category": "teluguDevotional",
+      "description": "Durga Devi stotrams in Telugu with visuals — builds focus, rhythm, and cultural connection.",
+      "youtubeURL": "https://www.youtube.com/watch?v=2SHpSMOkRwA"
+    },
+    {
+      "id": "_nFpXeHRCKg",
+      "title": "కృష్ణాష్టకం — Krishnashtakam for Children",
+      "channel": "Bhakti Sangamam",
+      "category": "teluguDevotional",
+      "description": "Eight verses praising Lord Krishna recited clearly in Telugu with meaning for kids.",
+      "youtubeURL": "https://www.youtube.com/watch?v=_nFpXeHRCKg"
+    },
+    {
+      "id": "uNjALxQB9g0",
+      "title": "తెలుగు భక్తి పాటలు — Telugu Devotional Songs",
+      "channel": "Telugu Bhakti Songs Kids",
+      "category": "teluguDevotional",
+      "description": "A collection of simple devotional songs in Telugu sung at child-friendly pace.",
+      "youtubeURL": "https://www.youtube.com/watch?v=uNjALxQB9g0"
+    },
+    {
+      "id": "PKSXKloL1nI",
+      "title": "ఆంజనేయ స్తోత్రం — Anjaneya Stotram",
+      "channel": "Hanuman Telugu Kids",
+      "category": "teluguDevotional",
+      "description": "Anjaneya stotram sung slowly with Telugu text on screen — easy for children to follow.",
+      "youtubeURL": "https://www.youtube.com/watch?v=PKSXKloL1nI"
+    },
+    {
+      "id": "r6cFhBVn55U",
+      "title": "నవగ్రహ స్తోత్రం — Navagraha Stotram Telugu",
+      "channel": "Navagraha Bhakti",
+      "category": "teluguDevotional",
+      "description": "Prayers to the nine planets recited in Telugu — introduces children to Vedic traditions.",
+      "youtubeURL": "https://www.youtube.com/watch?v=r6cFhBVn55U"
+    },
+    {
+      "id": "2wUsdsae0ro",
+      "title": "Measuring! Length and Distance for Kids",
+      "channel": "Scratch Garden",
+      "category": "measurements",
+      "description": "Learn about measuring length and distance — standard vs non-standard units explained clearly.",
+      "youtubeURL": "https://www.youtube.com/watch?v=2wUsdsae0ro"
+    },
+    {
+      "id": "Z0CcUyFzeZ4",
+      "title": "Units of Measurement — Science for Kids",
+      "channel": "Periwinkle",
+      "category": "measurements",
+      "description": "Learn to compare heights and weights using measurement words and units.",
+      "youtubeURL": "https://www.youtube.com/watch?v=Z0CcUyFzeZ4"
+    },
+    {
+      "id": "S2dX9Idj5uM",
+      "title": "Measuring Length, Volume and Mass",
+      "channel": "Science Class",
+      "category": "measurements",
+      "description": "How to take measurements of length with a ruler, volume with a cylinder, and mass with a scale.",
+      "youtubeURL": "https://www.youtube.com/watch?v=S2dX9Idj5uM"
+    },
+    {
+      "id": "c7lm3sbLj5o",
+      "title": "Temperature — Year 2 Maths",
+      "channel": "FuseSchool Kids",
+      "category": "measurements",
+      "description": "Learn about temperature, thermometers and how we measure how hot or cold things are.",
+      "youtubeURL": "https://www.youtube.com/watch?v=c7lm3sbLj5o"
+    },
+    {
+      "id": "73K7FX8cibY",
+      "title": "The Metric System — Math Is All Around Us",
+      "channel": "Da Vinci",
+      "category": "measurements",
+      "description": "How the metric system measures length, weight, volume, time and temperature.",
+      "youtubeURL": "https://www.youtube.com/watch?v=73K7FX8cibY"
+    },
+    {
+      "id": "uTIJmUhgOZY",
+      "title": "Measurement Units — Distance, Weight, Volume, Time",
+      "channel": "Matific",
+      "category": "measurements",
+      "description": "Use measurement units and ratios to measure distance, time, weight and volume.",
+      "youtubeURL": "https://www.youtube.com/watch?v=uTIJmUhgOZY"
+    },
+    {
+      "id": "EGESag4JDjo",
+      "title": "Measuring Length — Maths Class 2",
+      "channel": "Kriti Educational",
+      "category": "measurements",
+      "description": "Learn about length and ways to measure it using standard and non-standard units.",
+      "youtubeURL": "https://www.youtube.com/watch?v=EGESag4JDjo"
+    },
+    {
+      "id": "Ll21j2r8gDc",
+      "title": "Math for Kids — Units of Length",
+      "channel": "iKen",
+      "category": "measurements",
+      "description": "Learn about standard and non-standard units of length with fun examples.",
+      "youtubeURL": "https://www.youtube.com/watch?v=Ll21j2r8gDc"
+    }
+  ]
+}
