@@ -1,0 +1,14 @@
+// Config.xcconfig
+// ⚠️  Add to .gitignore — NEVER commit real values to source control.
+//
+// Get these from: Supabase → your project → Project Settings → API
+//
+// The SUPABASE_ANON_KEY is safe to ship in the app — it only allows
+// reading public rows. Your Anthropic key stays in the database.
+
+SUPABASE_URL      = https://YOUR_PROJECT_ID.supabase.co
+SUPABASE_ANON_KEY = eyYOUR_ANON_KEY_HERE
+
+// Google Maps API key — get from https://console.cloud.google.com
+// Enable: Maps JavaScript API, Maps SDK for iOS, Geocoding API
+GOOGLE_MAPS_API_KEY = YOUR_GOOGLE_MAPS_API_KEY_HERE

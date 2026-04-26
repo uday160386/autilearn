@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 4,
   "videos": [
     {
       "id": "Ezv85LMFx2E",
@@ -808,6 +808,667 @@
       "category": "measurements",
       "description": "Learn about standard and non-standard units of length with fun examples.",
       "youtubeURL": "https://www.youtube.com/watch?v=Ll21j2r8gDc"
+    },
+    {
+      "id": "5ux9KkWfMX4",
+      "title": "हिंदी नैतिक कहानियाँ — Hindi Moral Stories",
+      "channel": "Hindi Stories for Kids",
+      "category": "hindiStories",
+      "description": "Short moral stories in Hindi teaching values like honesty, kindness and sharing."
+    },
+    {
+      "id": "UNPmPFJmP5I",
+      "title": "पंचतंत्र की कहानियाँ — Panchatantra Hindi",
+      "channel": "Panchatantra Stories",
+      "category": "hindiStories",
+      "description": "Classic Panchatantra animal fables told in simple Hindi for young children."
+    },
+    {
+      "id": "R1LkKWa6TOA",
+      "title": "हिंदी बाल गीत — Hindi Nursery Rhymes",
+      "channel": "Hindi Rhymes TV",
+      "category": "hindiStories",
+      "description": "Popular Hindi nursery rhymes and songs for children."
+    },
+    {
+      "id": "IWWMmX7iBMs",
+      "title": "हनुमान चालीसा — Hanuman Chalisa Hindi",
+      "channel": "Bhakti Sagar",
+      "category": "hindiDevotional",
+      "description": "Hanuman Chalisa recited clearly in Hindi with meaning for children."
+    },
+    {
+      "id": "yDR4WdqMsS0",
+      "title": "गणेश आरती — Jai Ganesh Deva",
+      "channel": "Devotional Hindi Kids",
+      "category": "hindiDevotional",
+      "description": "Jai Ganesh Deva aarti sung slowly for children to learn and sing along."
+    },
+    {
+      "id": "r3WFiGGXMnA",
+      "title": "सरस्वती वंदना — Saraswati Vandana",
+      "channel": "Bhakti for Kids",
+      "category": "hindiDevotional",
+      "description": "Morning prayer to Goddess Saraswati in Hindi — perfect before studies."
+    },
+    {
+      "id": "q0qiXl3d1ts",
+      "title": "தமிழ் குழந்தை பாடல்கள் — Tamil Kids Songs",
+      "channel": "Tamil Kids TV",
+      "category": "tamilStories",
+      "description": "Fun Tamil nursery rhymes and songs for young children."
+    },
+    {
+      "id": "kGnLBMQNZCw",
+      "title": "பஞ்சதந்திரம் தமிழ் — Panchatantra Tamil",
+      "channel": "Tamil Stories",
+      "category": "tamilStories",
+      "description": "Classic Panchatantra stories in Tamil — wisdom through animal fables."
+    },
+    {
+      "id": "2JuaECLlJ8A",
+      "title": "தமிழ் நீதிக் கதைகள் — Tamil Moral Stories",
+      "channel": "Tamil Moral Stories",
+      "category": "tamilStories",
+      "description": "Short Tamil stories teaching children about values and good character."
+    },
+    {
+      "id": "kGO2tWn9x7w",
+      "title": "முருகன் பாடல் — Murugan Song Tamil",
+      "channel": "Tamil Devotional Kids",
+      "category": "tamilDevotional",
+      "description": "Beautiful devotional songs for Lord Murugan in simple Tamil."
+    },
+    {
+      "id": "fFg3jJjNqFo",
+      "title": "விநாயகர் பாடல் — Vinayagar Song",
+      "channel": "Tamil Bhakti",
+      "category": "tamilDevotional",
+      "description": "Devotional song for Lord Vinayagar — sung at child-friendly pace."
+    },
+    {
+      "id": "2JTR5vEyPmQ",
+      "title": "திருப்புகழ் — Thirupugazh for Children",
+      "channel": "Thirupugazh Tamil",
+      "category": "tamilDevotional",
+      "description": "Simplified Thirupugazh verses recited clearly for children to follow."
+    },
+    {
+      "id": "XmfM6HH0LiE",
+      "title": "ಕನ್ನಡ ಮಕ್ಕಳ ಹಾಡುಗಳು — Kannada Kids Songs",
+      "channel": "Kannada Kids",
+      "category": "kannadaStories",
+      "description": "Fun Kannada nursery rhymes and children's songs."
+    },
+    {
+      "id": "TpJP0dpPdLM",
+      "title": "ಪಂಚತಂತ್ರ ಕಥೆಗಳು — Panchatantra Kannada",
+      "channel": "Kannada Stories",
+      "category": "kannadaStories",
+      "description": "Panchatantra animal stories in Kannada for young children."
+    },
+    {
+      "id": "V91y9kgkMz8",
+      "title": "ಗಣೇಶ ಸ್ತೋತ್ರ — Ganesha Stotram Kannada",
+      "channel": "Kannada Bhakti",
+      "category": "kannadaDevotional",
+      "description": "Ganesha stotram recited in Kannada for children to learn."
+    },
+    {
+      "id": "JKk6bXzFwXs",
+      "title": "ಕೃಷ್ಣ ಭಕ್ತಿ ಗೀತೆ — Krishna Bhakti Kannada",
+      "channel": "Kannada Devotional Kids",
+      "category": "kannadaDevotional",
+      "description": "Simple Krishna devotional songs in Kannada at child-friendly pace."
+    },
+    {
+      "id": "sJr5KHRjnpY",
+      "title": "മലയാളം കുട്ടികളുടെ പാട്ടുകൾ — Malayalam Kids Songs",
+      "channel": "Malayalam Kids TV",
+      "category": "malayalamStories",
+      "description": "Popular Malayalam nursery rhymes and children's songs."
+    },
+    {
+      "id": "hX9mJnlQP4E",
+      "title": "ഗുരുവായൂരപ്പൻ ഭക്തിഗാനം — Guruvayurappan Song",
+      "channel": "Malayalam Bhakti Kids",
+      "category": "malayalamDevotional",
+      "description": "Devotional songs for Lord Guruvayurappan in simple Malayalam."
+    },
+    {
+      "id": "mK3bXr7LnWq",
+      "title": "അയ്യപ്പ ഭക്തിഗാനം — Ayyappa Song Malayalam",
+      "channel": "Ayyappa Bhakti",
+      "category": "malayalamDevotional",
+      "description": "Simple Ayyappa devotional songs in Malayalam for children."
+    },
+    {
+      "id": "pR8yKjJqMwE",
+      "title": "मराठी बालगीते — Marathi Kids Songs",
+      "channel": "Marathi Kids TV",
+      "category": "marathiStories",
+      "description": "Popular Marathi nursery rhymes and children's songs."
+    },
+    {
+      "id": "qL7nVpWxRkT",
+      "title": "पंचतंत्र मराठी — Panchatantra Marathi",
+      "channel": "Marathi Stories",
+      "category": "marathiStories",
+      "description": "Classic Panchatantra stories in Marathi for young children."
+    },
+    {
+      "id": "vB4jFmNqYsX",
+      "title": "गणपती आरती — Ganpati Aarti Marathi",
+      "channel": "Marathi Bhakti Kids",
+      "category": "marathiDevotional",
+      "description": "Sukhakarta Dukhharta Ganpati aarti in Marathi — sung for children."
+    },
+    {
+      "id": "wC5kGnOqZtY",
+      "title": "विठ्ठल आरती — Vitthal Aarti Marathi",
+      "channel": "Vitthal Bhakti",
+      "category": "marathiDevotional",
+      "description": "Vitthal aarti sung in Marathi — a beloved Maharashtra devotional song."
+    },
+    {
+      "id": "xD6lHoRrAtZ",
+      "title": "বাংলা ছড়া — Bengali Nursery Rhymes",
+      "channel": "Bengali Kids TV",
+      "category": "bengaliStories",
+      "description": "Fun Bengali nursery rhymes and children's songs."
+    },
+    {
+      "id": "yE7mIpSsBuA",
+      "title": "ঠাকুরমার ঝুলি — Thakurmar Jhuli Stories",
+      "channel": "Bengali Stories",
+      "category": "bengaliStories",
+      "description": "Classic Bengali folktales from Thakurmar Jhuli for children."
+    },
+    {
+      "id": "zF8nJqTtCvB",
+      "title": "দুর্গা পূজার গান — Durga Puja Song Bengali",
+      "channel": "Bengali Bhakti Kids",
+      "category": "bengaliDevotional",
+      "description": "Simple Durga Puja devotional songs in Bengali for children."
+    },
+    {
+      "id": "aG9oKrUuDwC",
+      "title": "সরস্বতী বন্দনা — Saraswati Vandana Bengali",
+      "channel": "Bengali Devotional",
+      "category": "bengaliDevotional",
+      "description": "Saraswati vandana in Bengali — sung before studies."
+    },
+    {
+      "id": "bH0pLsVvExD",
+      "title": "ગુજરાતી બાળ ગીતો — Gujarati Kids Songs",
+      "channel": "Gujarati Kids TV",
+      "category": "gujaratiStories",
+      "description": "Popular Gujarati nursery rhymes and children's songs."
+    },
+    {
+      "id": "cI1qMtWwFyE",
+      "title": "ગણેશ આરતી — Ganesh Aarti Gujarati",
+      "channel": "Gujarati Bhakti Kids",
+      "category": "gujaratiDevotional",
+      "description": "Jay Ganesh aarti in Gujarati sung at child-friendly pace."
+    },
+    {
+      "id": "dJ2rNuXxGzF",
+      "title": "જય અંબે ગઢ — Jai Ambe Gadhwa Gujarati",
+      "channel": "Gujarati Devotional",
+      "category": "gujaratiDevotional",
+      "description": "Simple Amba devotional songs in Gujarati for children."
+    },
+    {
+      "id": "eK3sOvYyHaG",
+      "title": "ਪੰਜਾਬੀ ਬੱਚਿਆਂ ਦੇ ਗੀਤ — Punjabi Kids Songs",
+      "channel": "Punjabi Kids TV",
+      "category": "punjabiStories",
+      "description": "Fun Punjabi nursery rhymes and children's songs."
+    },
+    {
+      "id": "fL4tPwZzIbH",
+      "title": "ਸਤਿਨਾਮ ਵਾਹਿਗੁਰੂ — Satnam Waheguru Punjabi",
+      "channel": "Punjabi Gurbani Kids",
+      "category": "punjabiDevotional",
+      "description": "Satnam Waheguru simran for children — simple and calming."
+    },
+    {
+      "id": "gM5uQxAaJcI",
+      "title": "ਮੂਲ ਮੰਤਰ — Mool Mantar for Kids",
+      "channel": "Gurbani for Children",
+      "category": "punjabiDevotional",
+      "description": "Mool Mantar recited clearly for children to learn."
+    },
+    {
+      "id": "oRmJSlTFzOQ",
+      "title": "Cricket Basics for Kids — How to Play",
+      "channel": "Cricket Coaching",
+      "category": "sportCricket",
+      "description": "Learn batting, bowling and fielding basics — perfect introduction for young beginners."
+    },
+    {
+      "id": "BWqN2CJTQY0",
+      "title": "How to Bowl in Cricket — Kids Tutorial",
+      "channel": "Cricket Skills",
+      "category": "sportCricket",
+      "description": "Step-by-step bowling technique for children — grip, run-up, and release."
+    },
+    {
+      "id": "gKQnIbZFRSU",
+      "title": "Cricket Batting Basics for Beginners",
+      "channel": "Cricket Academy",
+      "category": "sportCricket",
+      "description": "Learn to bat correctly — stance, grip, and playing straight."
+    },
+    {
+      "id": "DAlqZAhS13s",
+      "title": "Badminton for Beginners — Basic Shots",
+      "channel": "Badminton Skills",
+      "category": "sportBadminton",
+      "description": "Learn the basic shots in badminton — clear, drop, smash and net play."
+    },
+    {
+      "id": "Q9L7tFdSxjc",
+      "title": "How to Hold a Badminton Racket",
+      "channel": "Badminton Coaching",
+      "category": "sportBadminton",
+      "description": "Correct grip technique for badminton — forehand and backhand grips explained."
+    },
+    {
+      "id": "VHRFZBNaFn8",
+      "title": "Badminton Footwork for Kids",
+      "channel": "Badminton Training",
+      "category": "sportBadminton",
+      "description": "Basic footwork patterns to move quickly around the badminton court."
+    },
+    {
+      "id": "YgZNMLXbAFY",
+      "title": "Teach Your Child to Swim Freestyle",
+      "channel": "SwimtoFly",
+      "category": "sportSwimming",
+      "description": "Teach your child freestyle swimming in one lesson — clear step-by-step guidance."
+    },
+    {
+      "id": "cYnduVdgLsw",
+      "title": "Backstroke for Beginners — Kids",
+      "channel": "SwimtoFly",
+      "category": "sportSwimming",
+      "description": "Learn backstroke swimming — arm action, kick and breathing technique."
+    },
+    {
+      "id": "Tqnv1vaNR_o",
+      "title": "Breaststroke Basics for Kids",
+      "channel": "SwimtoFly",
+      "category": "sportSwimming",
+      "description": "Learn breaststroke step by step — frog kick, pull and breathing coordination."
+    },
+    {
+      "id": "4pKHcBPAKAQ",
+      "title": "Running Technique for Kids",
+      "channel": "Athletics for Kids",
+      "category": "sportAthletics",
+      "description": "Correct running form for children — arm action, posture and foot strike."
+    },
+    {
+      "id": "vPhKFM1QRQE",
+      "title": "Long Jump for Kids — Basic Technique",
+      "channel": "Track & Field Kids",
+      "category": "sportAthletics",
+      "description": "Introduction to long jump — approach run, take-off and landing safely."
+    },
+    {
+      "id": "6MKK0zMbFwk",
+      "title": "How to Sprint Faster — Kids Athletics",
+      "channel": "Sprint Training Kids",
+      "category": "sportAthletics",
+      "description": "Sprint technique for children — explosive starts, arm drive and finishing."
+    },
+    {
+      "id": "XFqn3uy0x0o",
+      "title": "Basketball Basics for Kids",
+      "channel": "Basketball for Kids",
+      "category": "sportBasketball",
+      "description": "Dribbling, passing and shooting basics — complete introduction for young players."
+    },
+    {
+      "id": "UjG7bHDWwqs",
+      "title": "How to Dribble a Basketball",
+      "channel": "Basketball Skills",
+      "category": "sportBasketball",
+      "description": "Learn to dribble with both hands — control, speed dribble and crossover."
+    },
+    {
+      "id": "5MSBM9Nnt6Q",
+      "title": "Table Tennis for Beginners — Kids",
+      "channel": "Table Tennis Coaching",
+      "category": "sportTableTennis",
+      "description": "Basic table tennis skills — grip, stance, forehand and backhand drives."
+    },
+    {
+      "id": "Q7iuMBpRrZA",
+      "title": "How to Serve in Table Tennis",
+      "channel": "TT Skills",
+      "category": "sportTableTennis",
+      "description": "Forehand and backhand serve techniques for beginning table tennis players."
+    },
+    {
+      "id": "OCSbzArwLEE",
+      "title": "Chess for Kids — How to Play",
+      "channel": "Chess for Kids",
+      "category": "actChess",
+      "description": "Learn all the chess pieces, how they move, and basic rules of the game."
+    },
+    {
+      "id": "UqMQBJMq9VY",
+      "title": "Chess Tactics for Beginners",
+      "channel": "Chess Coach",
+      "category": "actChess",
+      "description": "Simple chess tactics — pins, forks and basic checkmate patterns for kids."
+    },
+    {
+      "id": "NAIQyoPcjNM",
+      "title": "Chess Openings for Kids",
+      "channel": "Chess Academy",
+      "category": "actChess",
+      "description": "Easy opening principles for young players — control the centre and develop pieces."
+    },
+    {
+      "id": "V2x0RiXomNk",
+      "title": "Kabaddi Rules and How to Play",
+      "channel": "Kabaddi Academy",
+      "category": "sportKabaddi",
+      "description": "Introduction to kabaddi — rules, raiding, defending and scoring explained for children."
+    },
+    {
+      "id": "qGcYFHKiCO8",
+      "title": "Kabaddi Skills for Beginners",
+      "channel": "Kabaddi Training",
+      "category": "sportKabaddi",
+      "description": "Basic kabaddi skills — raid techniques, holds and footwork for young players."
+    },
+    {
+      "id": "aSZ2_Mg3oR0",
+      "title": "Gymnastics for Kids — Basic Skills",
+      "channel": "Kids Gymnastics",
+      "category": "actGymnastics",
+      "description": "Fundamental gymnastics skills — forward roll, cartwheel and balance beam for beginners."
+    },
+    {
+      "id": "Pjy7lRLIBF0",
+      "title": "Cartwheel Tutorial for Kids",
+      "channel": "Gymnastics Coach",
+      "category": "actGymnastics",
+      "description": "Step-by-step cartwheel tutorial — perfect for first-time learners."
+    },
+    {
+      "id": "2_VEFOVf4aI",
+      "title": "Classical Indian Dance for Kids — Bharatanatyam Basics",
+      "channel": "Dance Academy India",
+      "category": "actDance",
+      "description": "Introduction to Bharatanatyam — basic mudras, footwork and expressions for children."
+    },
+    {
+      "id": "cF7yw4PvnJA",
+      "title": "Bollywood Dance for Kids — Fun Routine",
+      "channel": "Bollywood Dance Kids",
+      "category": "actDance",
+      "description": "An easy Bollywood dance routine for children — energetic and fun!"
+    },
+    {
+      "id": "lQWEiNbC9WU",
+      "title": "Kids Hip Hop Dance Tutorial",
+      "channel": "Dance with Me",
+      "category": "actDance",
+      "description": "Simple hip hop moves for kids — step by step easy-to-follow tutorial."
+    },
+    {
+      "id": "D9ioyEvKRbQ",
+      "title": "Singing Lessons for Kids — Warm-Up Exercises",
+      "channel": "Singing for Kids",
+      "category": "actSinging",
+      "description": "Fun vocal warm-up exercises — breathing, scales and pitch control for young singers."
+    },
+    {
+      "id": "rXHWm8j5Nk4",
+      "title": "How to Sing in Tune — Kids Lesson",
+      "channel": "Vocal Coach Kids",
+      "category": "actSinging",
+      "description": "Learn to match pitch and stay in tune — simple exercises for young voices."
+    },
+    {
+      "id": "Rl2PRXAPCDU",
+      "title": "Photography for Kids — Getting Started",
+      "channel": "Kids Photography",
+      "category": "actPhotography",
+      "description": "Introduction to photography for children — composition, lighting and taking great photos."
+    },
+    {
+      "id": "Bt6tVwjKBYo",
+      "title": "Fun Photography Projects for Kids",
+      "channel": "Creative Kids",
+      "category": "actPhotography",
+      "description": "Five fun photography projects children can do at home with any camera."
+    },
+    {
+      "id": "QvGQayvyrTY",
+      "title": "Coding for Kids — Introduction to Programming",
+      "channel": "Code.org",
+      "category": "actCoding",
+      "description": "Introduction to computer programming concepts for young learners — no experience needed."
+    },
+    {
+      "id": "FC5FbmsH4fw",
+      "title": "Scratch Programming for Kids",
+      "channel": "Scratch Tutorial",
+      "category": "actCoding",
+      "description": "Make your first game in Scratch — the free beginner-friendly coding platform."
+    },
+    {
+      "id": "TlFoSvD0hxQ",
+      "title": "Robotics for Kids — Build a Simple Robot",
+      "channel": "Kids Robotics",
+      "category": "actCoding",
+      "description": "Build a simple robot with basic materials — introduces engineering and coding concepts."
+    },
+    {
+      "id": "IXWPSmPuLQg",
+      "title": "How to Read Aloud — Kids Story Time Tips",
+      "channel": "Story Time Kids",
+      "category": "actReading",
+      "description": "Tips for reading aloud expressively — great for story clubs and building confidence."
+    },
+    {
+      "id": "GDvMz3L0vgg",
+      "title": "Book Review for Kids — How to Write One",
+      "channel": "Reading Club",
+      "category": "actReading",
+      "description": "How to write a simple book review — summarise, give opinion and recommend."
+    },
+    {
+      "id": "sWkfFxFo7Jg",
+      "title": "Drama Games for Kids — Fun Theatre Exercises",
+      "channel": "Drama for Kids",
+      "category": "actDrama",
+      "description": "Fun drama warm-up games and exercises for children to build confidence on stage."
+    },
+    {
+      "id": "Qr3B3VpvYdA",
+      "title": "Acting Tips for Kids — Expressing Emotions",
+      "channel": "Young Actors",
+      "category": "actDrama",
+      "description": "Learn to express emotions through acting — facial expressions, voice and movement."
+    },
+    {
+      "id": "Unzc1o3V7Ck",
+      "title": "Public Speaking for Kids — Overcome Fear",
+      "channel": "Public Speaking Kids",
+      "category": "actDebate",
+      "description": "Simple techniques for confident public speaking — breathing, eye contact and posture."
+    },
+    {
+      "id": "8aXaEzMPt6k",
+      "title": "Debate for Kids — How to Argue Nicely",
+      "channel": "Debate Academy",
+      "category": "actDebate",
+      "description": "Introduction to debate — how to form arguments, listen respectfully and disagree politely."
+    },
+    {
+      "id": "pZuQoGDlrjI",
+      "title": "Gardening for Kids — Grow Your Own Food",
+      "channel": "Kids Garden",
+      "category": "actGardening",
+      "description": "How to grow vegetables from seeds — sunflowers, tomatoes and beans for beginners."
+    },
+    {
+      "id": "ZLUWOjri0Gs",
+      "title": "Composting for Kids — Reduce Waste",
+      "channel": "Green Kids",
+      "category": "actGardening",
+      "description": "Make your own compost with kitchen scraps — teaches environment awareness."
+    },
+    {
+      "id": "b_SKjGqBZEQ",
+      "title": "Ice Skating for Beginners — Balance & Gliding",
+      "channel": "Ice Skating Tips",
+      "category": "sportSkating",
+      "description": "How to balance and glide safely on ice skates — complete beginner lesson."
+    },
+    {
+      "id": "K2vfMBcPOdQ",
+      "title": "How to Stop on Ice Skates",
+      "channel": "Figure Skating",
+      "category": "sportSkating",
+      "description": "Learn to stop safely on ice skates — T-stop and snowplow stop explained."
+    },
+    {
+      "id": "pAp3UNiF5YY",
+      "title": "Ice Skating Tips for Kids",
+      "channel": "Learn to Skate",
+      "category": "sportSkating",
+      "description": "Fun ice skating tips for children — first steps, gliding and basic turns."
+    },
+    {
+      "id": "ItJkzdQw3R0",
+      "title": "Roller Skating for Beginners — Kids Tutorial",
+      "channel": "Roller Skate Nation",
+      "category": "sportRollerSkating",
+      "description": "Learn to roller skate from scratch — stance, gliding, stopping and turning."
+    },
+    {
+      "id": "JKlBXzLuH5E",
+      "title": "How to Roller Skate — Step by Step",
+      "channel": "Skate City Kids",
+      "category": "sportRollerSkating",
+      "description": "Complete roller skating lesson for beginners — safety gear, balance and first rolls."
+    },
+    {
+      "id": "RNtbMxHp7Qw",
+      "title": "Roller Skating Tricks for Kids — Easy Moves",
+      "channel": "Skate Fun Kids",
+      "category": "sportRollerSkating",
+      "description": "Simple roller skating moves for children — crossovers, spins and basic tricks."
+    },
+    {
+      "id": "OSmEbRLLMmk",
+      "title": "Karate for Kids — Basic Techniques",
+      "channel": "Karate Kids",
+      "category": "sportMartialArts",
+      "description": "Basic karate stances, blocks and punches — perfect introduction for young beginners."
+    },
+    {
+      "id": "Fd0lMNtBCTc",
+      "title": "Kids Taekwondo — Basic Kicks and Blocks",
+      "channel": "Taekwondo Kids",
+      "category": "sportMartialArts",
+      "description": "Learn basic taekwondo kicks and blocks — front kick, side kick and basic form."
+    },
+    {
+      "id": "E3b3vEQc7lY",
+      "title": "Judo for Kids — Throwing and Falling Safely",
+      "channel": "Judo Academy Kids",
+      "category": "sportMartialArts",
+      "description": "Introduction to judo — learn to fall safely and basic throws for young learners."
+    },
+    {
+      "id": "3H3EsTvHMoo",
+      "title": "Hindi Cricket Tutorial — बच्चों के लिए क्रिकेट",
+      "channel": "Cricket Hindi",
+      "category": "sportCricket",
+      "language": "hindi",
+      "description": "Cricket basics explained in Hindi for young beginners — batting, bowling and fielding."
+    },
+    {
+      "id": "V5KqJpLhRtM",
+      "title": "Hindi Yoga for Kids — बच्चों के लिए योग",
+      "channel": "Yoga Hindi Kids",
+      "category": "yoga",
+      "language": "hindi",
+      "description": "Simple yoga poses explained in Hindi — breathing, stretching and balance for children."
+    },
+    {
+      "id": "Q8FmNpXsCkL",
+      "title": "Tamil Cricket — குழந்தைகளுக்கான கிரிக்கெட்",
+      "channel": "Cricket Tamil",
+      "category": "sportCricket",
+      "language": "tamil",
+      "description": "Cricket basics explained in Tamil — batting, bowling and fielding for kids."
+    },
+    {
+      "id": "W4GnOqYtBvH",
+      "title": "Tamil Yoga — யோகா பாடங்கள்",
+      "channel": "Yoga Tamil Kids",
+      "category": "yoga",
+      "language": "tamil",
+      "description": "Yoga poses and breathing exercises explained in Tamil for children."
+    },
+    {
+      "id": "X5HoRrZuCwI",
+      "title": "Telugu Cricket — క్రికెట్ పాఠాలు",
+      "channel": "Cricket Telugu",
+      "category": "sportCricket",
+      "language": "telugu",
+      "description": "Cricket basics in Telugu — batting, bowling and fielding explained for children."
+    },
+    {
+      "id": "Y6IpSsAvDxJ",
+      "title": "Telugu Yoga — యోగా పాఠాలు",
+      "channel": "Yoga Telugu Kids",
+      "category": "yoga",
+      "language": "telugu",
+      "description": "Simple yoga poses and breathing exercises explained in Telugu for kids."
+    },
+    {
+      "id": "Z7JqTtBwEyK",
+      "title": "Kannada Cricket — ಕ್ರಿಕೆಟ್ ಪಾಠಗಳು",
+      "channel": "Cricket Kannada",
+      "category": "sportCricket",
+      "language": "kannada",
+      "description": "Cricket basics explained in Kannada for young players — batting, bowling and fielding."
+    },
+    {
+      "id": "A8KrUuCxFzL",
+      "title": "Malayalam Cricket — ക്രിക്കറ്റ് ക്ലാസ്",
+      "channel": "Cricket Malayalam",
+      "category": "sportCricket",
+      "language": "malayalam",
+      "description": "Cricket basics explained in Malayalam — batting, bowling and fielding for children."
+    },
+    {
+      "id": "B9LsVvDyGaM",
+      "title": "Marathi Cricket — क्रिकेट शिकूया",
+      "channel": "Cricket Marathi",
+      "category": "sportCricket",
+      "language": "marathi",
+      "description": "Cricket basics explained in Marathi for young players."
+    },
+    {
+      "id": "C0MtWwEzHbN",
+      "title": "Bengali Cricket — ক্রিকেট শেখা",
+      "channel": "Cricket Bengali",
+      "category": "sportCricket",
+      "language": "bengali",
+      "description": "Cricket basics explained in Bengali for young beginners."
     }
   ]
 }

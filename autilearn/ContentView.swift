@@ -338,6 +338,11 @@ struct DashboardView: View {
         }
         .navigationTitle("Dashboard")
         .navigationBarTitleDisplayMode(.large)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                LanguagePickerButton()
+            }
+        }
     }
 
     @ViewBuilder
@@ -473,8 +478,19 @@ struct ActivitiesTabView: View {
         .init(title: "Cooking",             subtitle: "Simple recipes & kitchen safety",      emoji: "🍳", color: "#D85A30", dest: .cooking),
         .init(title: "Sports",              subtitle: "Fun sports activities & games",        emoji: "⚽", color: "#185FA5", dest: .sports),
         .init(title: "Physical Activities", subtitle: "Skating, painting, drawing, swimming", emoji: "🏅", color: "#D4537E", dest: .physicalActs),
-        .init(title: "Telugu Devotional",   subtitle: "Prayers, stotrams & bhakti songs",     emoji: "🙏", color: "#8B2FC9", dest: .teluguDevotional),
     ]
+
+    private var languageTileTitle: String {
+        let lang = LanguageStore.shared.selectedLanguage ?? .telugu
+        return "\(lang.rawValue) Devotional"
+    }
+    private var languageTileSubtitle: String {
+        let lang = LanguageStore.shared.selectedLanguage ?? .telugu
+        return "Prayers & bhakti songs in \(lang.rawValue)"
+    }
+    private var languageTileColor: String {
+        LanguageStore.shared.selectedLanguage?.colorHex ?? "#8B2FC9"
+    }
 
     var body: some View {
         ScrollView {
@@ -519,12 +535,104 @@ struct ActivitiesTabView: View {
                         .buttonStyle(.plain)
                         .padding(.horizontal, 20)
                     }
+
+                    // My Activities tile (interest-based)
+                    NavigationLink(destination: InterestVideoView()) {
+                        HStack(spacing: 16) {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 14)
+                                    .fill(Color(hex: "#185FA5").opacity(0.13))
+                                    .frame(width: 64, height: 64)
+                                Text("🏅").font(.system(size: 30))
+                            }
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text("My Activities")
+                                    .font(.system(size: 16, weight: .semibold)).foregroundColor(.primary)
+                                Text(InterestStore.shared.hasSelections
+                                     ? InterestStore.shared.displaySummary
+                                     : "Choose your sports & hobbies")
+                                    .font(.system(size: 13)).foregroundColor(.secondary).lineLimit(2)
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 13, weight: .semibold))
+                                .foregroundColor(Color(hex: "#185FA5"))
+                        }
+                        .padding(16)
+                        .background(Color(.systemBackground))
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
+                        .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color(hex: "#185FA5").opacity(0.25), lineWidth: 1))
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 20)
+
+                    // Language-aware devotional tile
+                    NavigationLink(destination: LanguageVideoView(mode: .devotional)) {
+                        HStack(spacing: 16) {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 14)
+                                    .fill(Color(hex: languageTileColor).opacity(0.13))
+                                    .frame(width: 64, height: 64)
+                                Text("🙏").font(.system(size: 30))
+                            }
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(languageTileTitle)
+                                    .font(.system(size: 16, weight: .semibold)).foregroundColor(.primary)
+                                Text(languageTileSubtitle)
+                                    .font(.system(size: 13)).foregroundColor(.secondary).lineLimit(2)
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 13, weight: .semibold))
+                                .foregroundColor(Color(hex: languageTileColor))
+                        }
+                        .padding(16)
+                        .background(Color(.systemBackground))
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
+                        .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color(hex: languageTileColor).opacity(0.25), lineWidth: 1))
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 20)
+
+                    // Language-aware stories tile
+                    NavigationLink(destination: LanguageVideoView(mode: .stories)) {
+                        HStack(spacing: 16) {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 14)
+                                    .fill(Color(hex: languageTileColor).opacity(0.13))
+                                    .frame(width: 64, height: 64)
+                                Text("📖").font(.system(size: 30))
+                            }
+                            VStack(alignment: .leading, spacing: 4) {
+                                let lang = LanguageStore.shared.selectedLanguage ?? .telugu
+                                Text("\(lang.rawValue) Stories")
+                                    .font(.system(size: 16, weight: .semibold)).foregroundColor(.primary)
+                                Text("Stories and rhymes in \(lang.rawValue)")
+                                    .font(.system(size: 13)).foregroundColor(.secondary).lineLimit(2)
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 13, weight: .semibold))
+                                .foregroundColor(Color(hex: languageTileColor))
+                        }
+                        .padding(16)
+                        .background(Color(.systemBackground))
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
+                        .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color(hex: languageTileColor).opacity(0.25), lineWidth: 1))
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.horizontal, 20)
                 }
                 .padding(.bottom, 30)
             }
         }
         .navigationTitle("Activities")
         .navigationBarTitleDisplayMode(.large)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                LanguagePickerButton()
+            }
+        }
     }
 
     @ViewBuilder private func destView(_ s: AppSection) -> some View {

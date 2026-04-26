@@ -1,3 +1,4 @@
+import os
 import Foundation
 import SwiftUI
 import SwiftData
@@ -41,6 +42,52 @@ enum VideoCategory: String, CaseIterable {
     case activities       = "Activities"
     case telugu           = "Telugu Stories 🇮🇳"
     case teluguDevotional = "Telugu Devotional 🙏"
+    // Hindi
+    case hindiStories     = "Hindi Stories"
+    case hindiDevotional  = "Hindi Devotional 🙏"
+    // Tamil
+    case tamilStories     = "Tamil Stories"
+    case tamilDevotional  = "Tamil Devotional 🙏"
+    // Kannada
+    case kannadaStories   = "Kannada Stories"
+    case kannadaDevotional = "Kannada Devotional 🙏"
+    // Malayalam
+    case malayalamStories  = "Malayalam Stories"
+    case malayalamDevotional = "Malayalam Devotional 🙏"
+    // Marathi
+    case marathiStories   = "Marathi Stories"
+    case marathiDevotional = "Marathi Devotional 🙏"
+    // Bengali
+    case bengaliStories   = "Bengali Stories"
+    case bengaliDevotional = "Bengali Devotional 🙏"
+    // Gujarati
+    case gujaratiStories  = "Gujarati Stories"
+    case gujaratiDevotional = "Gujarati Devotional 🙏"
+    // Punjabi
+    case punjabiStories   = "Punjabi Stories"
+    case punjabiDevotional = "Punjabi Devotional 🙏"
+    // Sports
+    case sportCricket     = "Cricket 🏏"
+    case sportBadminton   = "Badminton 🏸"
+    case sportSwimming    = "Swimming 🏊"
+    case sportAthletics   = "Athletics 🏃"
+    case sportBasketball  = "Basketball 🏀"
+    case sportTableTennis = "Table Tennis 🏓"
+    case sportKabaddi     = "Kabaddi 🤼"
+    case sportSkating     = "Ice Skating ⛸️"
+    case sportRollerSkating = "Roller Skating 🛼"
+    case sportMartialArts = "Martial Arts 🥋"
+    // Activities
+    case actChess         = "Chess ♟️"
+    case actGymnastics    = "Gymnastics 🤸"
+    case actDance         = "Dance 💃"
+    case actSinging       = "Singing 🎤"
+    case actPhotography   = "Photography 📷"
+    case actCoding        = "Coding & Robotics 💻"
+    case actReading       = "Reading Club 📚"
+    case actDrama         = "Drama & Theatre 🎭"
+    case actDebate        = "Debate & Speaking 🗣️"
+    case actGardening     = "Gardening 🌱"
     case measurements     = "Measurements"
 
     var colorHex: String {
@@ -60,6 +107,34 @@ enum VideoCategory: String, CaseIterable {
         case .activities:       return "#1CA8DD"
         case .telugu:           return "#FF6B35"
         case .teluguDevotional: return "#8B2FC9"
+        case .hindiStories, .hindiDevotional:       return "#D85A30"
+        case .tamilStories, .tamilDevotional:       return "#D4537E"
+        case .kannadaStories, .kannadaDevotional:   return "#BA7517"
+        case .malayalamStories, .malayalamDevotional: return "#1D9E75"
+        case .marathiStories, .marathiDevotional:   return "#8B2FC9"
+        case .bengaliStories, .bengaliDevotional:   return "#185FA5"
+        case .gujaratiStories, .gujaratiDevotional: return "#3B6D11"
+        case .punjabiStories, .punjabiDevotional:   return "#D85A30"
+        case .sportCricket:    return "#185FA5"
+        case .sportBadminton:  return "#534AB7"
+        case .sportSwimming:   return "#1CA8DD"
+        case .sportAthletics:  return "#D85A30"
+        case .sportBasketball: return "#BA7517"
+        case .sportTableTennis:return "#D4537E"
+        case .sportKabaddi:    return "#D85A30"
+        case .sportSkating:    return "#185FA5"
+        case .sportRollerSkating: return "#1CA8DD"
+        case .sportMartialArts:return "#D85A30"
+        case .actChess:        return "#3B3B3B"
+        case .actGymnastics:   return "#8B2FC9"
+        case .actDance:        return "#D4537E"
+        case .actSinging:      return "#D85A30"
+        case .actPhotography:  return "#3B6D11"
+        case .actCoding:       return "#185FA5"
+        case .actReading:      return "#534AB7"
+        case .actDrama:        return "#D85A30"
+        case .actDebate:       return "#185FA5"
+        case .actGardening:    return "#3B6D11"
         case .measurements:     return "#185FA5"
         }
     }
@@ -80,7 +155,29 @@ enum VideoCategory: String, CaseIterable {
         case .arts:             return "paintpalette.fill"
         case .activities:       return "figure.walk"
         case .telugu:           return "character.book.closed.fill"
-        case .teluguDevotional: return "hands.sparkles.fill"
+        case .teluguDevotional:                       return "hands.sparkles.fill"
+        case .hindiStories, .tamilStories, .kannadaStories,
+             .malayalamStories, .marathiStories, .bengaliStories,
+             .gujaratiStories, .punjabiStories:        return "character.book.closed.fill"
+        case .hindiDevotional, .tamilDevotional, .kannadaDevotional,
+             .malayalamDevotional, .marathiDevotional, .bengaliDevotional,
+             .gujaratiDevotional, .punjabiDevotional:  return "hands.sparkles.fill"
+        case .sportCricket, .sportBadminton, .sportSwimming,
+             .sportAthletics, .sportBasketball, .sportTableTennis,
+             .sportKabaddi:                            return "sportscourt.fill"
+        case .sportSkating:    return "figure.skating"
+        case .sportRollerSkating: return "figure.skating"
+        case .sportMartialArts:return "figure.martial.arts"
+        case .actChess:        return "square.grid.3x3.fill"
+        case .actGymnastics:   return "figure.gymnastics"
+        case .actDance:        return "music.note.list"
+        case .actSinging:      return "mic.fill"
+        case .actPhotography:  return "camera.fill"
+        case .actCoding:       return "laptopcomputer"
+        case .actReading:      return "book.fill"
+        case .actDrama:        return "theatermasks.fill"
+        case .actDebate:       return "bubble.left.and.bubble.right.fill"
+        case .actGardening:    return "leaf.fill"
         case .measurements:     return "ruler.fill"
         }
     }
@@ -94,6 +191,7 @@ struct EducationalVideo: Identifiable, Hashable {
     let channel: String
     let category: VideoCategory
     let description: String
+    let language: String?       // optional language tag e.g. "hindi", "tamil"
 
     var thumbnailURL: URL? { URL(string: "https://img.youtube.com/vi/\(id)/hqdefault.jpg") }
     var watchURL: URL?     { URL(string: "https://www.youtube.com/watch?v=\(id)") }
@@ -116,6 +214,75 @@ extension EducationalVideo {
         return all.filter { ids.contains($0.id) }
     }
 
+    /// Returns videos for a set of selected KidActivity interests.
+    static func videos(for activities: Set<KidActivity>) -> [EducationalVideo] {
+        let keys = Set(activities.map(\.videoCategory))
+        return all.filter { keys.contains(categoryKey($0.category)) }
+    }
+
+    /// Returns videos filtered by BOTH language AND activities.
+    /// - If a video has an explicit language tag, it must match selectedLanguage.
+    /// - If a video has no language tag, it is included for all languages.
+    /// - Activity category filter applied on top.
+    static func videos(
+        for activities: Set<KidActivity>,
+        language: IndianLanguage?
+    ) -> [EducationalVideo] {
+        let keys = Set(activities.map(\.videoCategory))
+        return all.filter { video in
+            // Must match activity category
+            guard keys.contains(categoryKey(video.category)) else { return false }
+            // If video has explicit language tag, must match selected language
+            if let lang = language, let vLang = video.language {
+                return vLang.lowercased() == lang.rawValue.lowercased()
+            }
+            // No language tag on video — include it (language-neutral content)
+            return true
+        }
+    }
+
+    /// Returns stories + devotional videos filtered by language, with optional activity filter.
+    static func languageVideos(
+        language: IndianLanguage,
+        activities: Set<KidActivity>? = nil
+    ) -> [EducationalVideo] {
+        let langKey  = language.rawValue.lowercased()
+        return all.filter { video in
+            // Match by explicit language tag OR by language-named category key
+            let catKey = categoryKey(video.category)
+            let matchesLang = video.language?.lowercased() == langKey
+                || catKey.lowercased().hasPrefix(langKey)
+            guard matchesLang else { return false }
+            // If activities filter provided, also check category
+            if let acts = activities, !acts.isEmpty {
+                let actKeys = Set(acts.map(\.videoCategory))
+                return actKeys.contains(catKey)
+            }
+            return true
+        }
+    }
+    /// Falls back to Telugu if no match found.
+    static func videos(for language: IndianLanguage) -> [EducationalVideo] {
+        let storiesKey    = language.storiesCategory
+        let devotionalKey = language.devotionalCategory
+        return all.filter { v in
+            categoryKey(v.category) == storiesKey ||
+            categoryKey(v.category) == devotionalKey
+        }
+    }
+
+    /// Returns devotional-only videos for a given language.
+    static func devotionalVideos(for language: IndianLanguage) -> [EducationalVideo] {
+        let key = language.devotionalCategory
+        return all.filter { categoryKey($0.category) == key }
+    }
+
+    /// Returns stories-only videos for a given language.
+    static func storiesVideos(for language: IndianLanguage) -> [EducationalVideo] {
+        let key = language.storiesCategory
+        return all.filter { categoryKey($0.category) == key }
+    }
+
     static func dailyVideos(count: Int = 6) -> [EducationalVideo] {
         let pool = VideoAvailabilityStore.shared.embeddableIDs.isEmpty
             ? all
@@ -130,7 +297,7 @@ extension EducationalVideo {
 
     private static func loadFromJSON() -> [EducationalVideo] {
         guard let url = Bundle.main.url(forResource: "videos", withExtension: "json") else {
-            print("⚠️  videos.json not found in bundle")
+            os_log(.error, "videos.json not found in bundle")
             return []
         }
         do {
@@ -144,19 +311,21 @@ extension EducationalVideo {
                         categoryKey($0) == entry.category
                     }
                     guard let cat = matched else {
-                        print("⚠️  Unknown category '\(entry.category)' for video \(entry.id)")
+                        os_log(.fault, "Unknown video category: %@ for id: %@", entry.category, entry.id)
                         return nil
                     }
                     return EducationalVideo(id: entry.id, title: entry.title,
                                            channel: entry.channel, category: cat,
-                                           description: entry.description)
+                                           description: entry.description,
+                                           language: entry.language)
                 }
                 return EducationalVideo(id: entry.id, title: entry.title,
                                         channel: entry.channel, category: category,
-                                        description: entry.description)
+                                        description: entry.description,
+                                        language: entry.language)
             }
         } catch {
-            print("⚠️  Failed to load videos.json: \(error)")
+            os_log(.error, "Failed to load videos.json: %@", error.localizedDescription)
             return []
         }
     }
@@ -179,6 +348,42 @@ extension EducationalVideo {
         case .activities:       return "activities"
         case .telugu:           return "telugu"
         case .teluguDevotional: return "teluguDevotional"
+        case .hindiStories:     return "hindiStories"
+        case .hindiDevotional:  return "hindiDevotional"
+        case .tamilStories:     return "tamilStories"
+        case .tamilDevotional:  return "tamilDevotional"
+        case .kannadaStories:   return "kannadaStories"
+        case .kannadaDevotional:return "kannadaDevotional"
+        case .malayalamStories: return "malayalamStories"
+        case .malayalamDevotional: return "malayalamDevotional"
+        case .marathiStories:   return "marathiStories"
+        case .marathiDevotional:return "marathiDevotional"
+        case .bengaliStories:   return "bengaliStories"
+        case .bengaliDevotional:return "bengaliDevotional"
+        case .gujaratiStories:  return "gujaratiStories"
+        case .gujaratiDevotional: return "gujaratiDevotional"
+        case .punjabiStories:   return "punjabiStories"
+        case .punjabiDevotional:return "punjabiDevotional"
+        case .sportCricket:     return "sportCricket"
+        case .sportBadminton:   return "sportBadminton"
+        case .sportSwimming:    return "sportSwimming"
+        case .sportAthletics:   return "sportAthletics"
+        case .sportBasketball:  return "sportBasketball"
+        case .sportTableTennis: return "sportTableTennis"
+        case .sportKabaddi:     return "sportKabaddi"
+        case .sportSkating:     return "sportSkating"
+        case .sportRollerSkating: return "sportRollerSkating"
+        case .sportMartialArts: return "sportMartialArts"
+        case .actChess:         return "actChess"
+        case .actGymnastics:    return "actGymnastics"
+        case .actDance:         return "actDance"
+        case .actSinging:       return "actSinging"
+        case .actPhotography:   return "actPhotography"
+        case .actCoding:        return "actCoding"
+        case .actReading:       return "actReading"
+        case .actDrama:         return "actDrama"
+        case .actDebate:        return "actDebate"
+        case .actGardening:     return "actGardening"
         case .measurements:     return "measurements"
         }
     }
@@ -196,6 +401,7 @@ extension EducationalVideo {
         let channel: String
         let category: String      // key e.g. "autism"
         let description: String
+        let language: String?     // optional e.g. "hindi", "tamil"
 
         /// Attempt to match rawValue display strings too (e.g. "Autism Support")
         var categoryDisplay: String {
@@ -215,6 +421,42 @@ extension EducationalVideo {
                 "activities":       "Activities",
                 "telugu":           "Telugu Stories 🇮🇳",
                 "teluguDevotional":  "Telugu Devotional 🙏",
+                "hindiStories":     "Hindi Stories",
+                "hindiDevotional":  "Hindi Devotional 🙏",
+                "tamilStories":     "Tamil Stories",
+                "tamilDevotional":  "Tamil Devotional 🙏",
+                "kannadaStories":   "Kannada Stories",
+                "kannadaDevotional":"Kannada Devotional 🙏",
+                "malayalamStories": "Malayalam Stories",
+                "malayalamDevotional":"Malayalam Devotional 🙏",
+                "marathiStories":   "Marathi Stories",
+                "marathiDevotional":"Marathi Devotional 🙏",
+                "bengaliStories":   "Bengali Stories",
+                "bengaliDevotional":"Bengali Devotional 🙏",
+                "gujaratiStories":  "Gujarati Stories",
+                "gujaratiDevotional":"Gujarati Devotional 🙏",
+                "punjabiStories":   "Punjabi Stories",
+                "punjabiDevotional":"Punjabi Devotional 🙏",
+                "sportCricket":     "Cricket 🏏",
+                "sportBadminton":   "Badminton 🏸",
+                "sportSwimming":    "Swimming 🏊",
+                "sportAthletics":   "Athletics 🏃",
+                "sportBasketball":  "Basketball 🏀",
+                "sportTableTennis": "Table Tennis 🏓",
+                "sportKabaddi":     "Kabaddi 🤼",
+                "sportSkating":     "Ice Skating ⛸️",
+                "sportRollerSkating":"Roller Skating 🛼",
+                "sportMartialArts": "Martial Arts 🥋",
+                "actChess":         "Chess ♟️",
+                "actGymnastics":    "Gymnastics 🤸",
+                "actDance":         "Dance 💃",
+                "actSinging":       "Singing 🎤",
+                "actPhotography":   "Photography 📷",
+                "actCoding":        "Coding & Robotics 💻",
+                "actReading":       "Reading Club 📚",
+                "actDrama":         "Drama & Theatre 🎭",
+                "actDebate":        "Debate & Speaking 🗣️",
+                "actGardening":     "Gardening 🌱",
                 "measurements":     "Measurements",
                 "all":              "All",
             ]

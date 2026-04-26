@@ -64,6 +64,7 @@ struct RootView: View {
         .animation(.easeInOut(duration: 0.22), value: ga.showUnlockOverlay)
         .onAppear {
             AppForegroundEnforcer.shared.start()
+            RemoteConfig.shared.load()
             VideoAvailabilityStore.shared.refresh()
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.4) {
                 withAnimation { showSplash = false }
@@ -80,8 +81,6 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
-        // Never dim screen during a learning session
-        UIApplication.shared.isIdleTimerDisabled = true
         return true
     }
 

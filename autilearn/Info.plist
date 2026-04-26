@@ -3,38 +3,45 @@
 <plist version="1.0">
 <dict>
 
-    <!-- ═══ PRIVACY USAGE DESCRIPTIONS (required for App Store review) ═══ -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>AutiLearn shows your location on the map so you can see how far away interesting places are.</string>
+
+    <!-- ═══ PRIVACY USAGE DESCRIPTIONS ═══ -->
     <key>NSCameraUsageDescription</key>
-    <string>AutiLearn uses the camera for Mirror Mode (practise making emotion faces) and to record personalised task demonstration videos.</string>
+    <string>AutiLearn uses the camera for Mirror Mode to practise making emotion faces, and to record personalised task demonstration videos.</string>
 
     <key>NSMicrophoneUsageDescription</key>
-    <string>AutiLearn uses the microphone so you can speak in Voice Chat and get a kind, friendly response.</string>
+    <string>AutiLearn uses the microphone so your child can speak in Voice Chat and receive a kind, friendly response.</string>
 
     <key>NSSpeechRecognitionUsageDescription</key>
-    <string>AutiLearn listens to what you say in Voice Chat to understand your feelings and reply kindly.</string>
+    <string>AutiLearn listens to what your child says in Voice Chat to understand their feelings and reply supportively.</string>
 
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>AutiLearn lets you add photos and videos from your library to your personal Memories book.</string>
+    <string>AutiLearn lets you add photos and videos from your library to your child's personal Memories book.</string>
 
     <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>AutiLearn saves media you create (videos, photos) to your photo library.</string>
+    <string>AutiLearn saves media your child creates to your photo library.</string>
+
+    <!-- ═══ PRIVACY POLICY ═══ -->
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array/>
 
     <!-- ═══ KIOSK / FULL SCREEN ═══ -->
-    <!-- Prevents iPad Slide Over and Split View — critical for keeping child in app -->
     <key>UIRequiresFullScreen</key>
     <true/>
 
-    <!-- ═══ AUDIO ═══ -->
-    <!-- Allows TTS and voice chat to keep playing when app briefly backgrounds -->
+    <!-- ═══ AUDIO BACKGROUND MODE ═══ -->
+    <!-- Required for TTS to continue briefly when app moves to background -->
     <key>UIBackgroundModes</key>
     <array>
         <string>audio</string>
     </array>
 
-    <!-- ═══ NETWORK ═══ -->
+    <!-- ═══ APP TRANSPORT SECURITY ═══ -->
+    <!-- NSAllowsArbitraryLoads removed — all domains explicitly whitelisted -->
     <key>NSAppTransportSecurity</key>
     <dict>
-        <key>NSAllowsArbitraryLoads</key>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
         <true/>
         <key>NSExceptionDomains</key>
         <dict>
@@ -42,6 +49,7 @@
             <dict>
                 <key>NSIncludesSubdomains</key><true/>
                 <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
+                <key>NSExceptionRequiresForwardSecrecy</key><false/>
             </dict>
             <key>ytimg.com</key>
             <dict>
@@ -53,17 +61,38 @@
                 <key>NSIncludesSubdomains</key><true/>
                 <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
             </dict>
+            <key>googlevideo.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key><true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
+                <key>NSExceptionRequiresForwardSecrecy</key><false/>
+            </dict>
             <key>googleapis.com</key>
             <dict>
                 <key>NSIncludesSubdomains</key><true/>
                 <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
             </dict>
-            <key>unsplash.com</key>
+            <key>gstatic.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key><true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
+            </dict>
+            <key>maps.googleapis.com</key>
             <dict>
                 <key>NSIncludesSubdomains</key><true/>
                 <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
             </dict>
             <key>anthropic.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key><true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
+            </dict>
+            <key>supabase.co</key>
+            <dict>
+                <key>NSIncludesSubdomains</key><true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
+            </dict>
+            <key>unsplash.com</key>
             <dict>
                 <key>NSIncludesSubdomains</key><true/>
                 <key>NSExceptionAllowsInsecureHTTPLoads</key><false/>
@@ -74,6 +103,15 @@
     <!-- ═══ GUIDED ACCESS ═══ -->
     <key>UIAccessibilityGuidedAccessRestrictions</key>
     <array/>
+
+    <!-- ═══ REMOTE CONFIG (Supabase) — set via Config.xcconfig ═══ -->
+    <!-- Find these in Supabase → Project Settings → API              -->
+    <!--   SUPABASE_URL      = https://YOUR_PROJECT.supabase.co       -->
+    <!--   SUPABASE_ANON_KEY = eyJ...                                 -->
+    <key>SupabaseURL</key>
+    <string>$(SUPABASE_URL)</string>
+    <key>SupabaseAnonKey</key>
+    <string>$(SUPABASE_ANON_KEY)</string>
 
 </dict>
 </plist>

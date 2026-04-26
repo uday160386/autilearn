@@ -1,3 +1,4 @@
+import os
 import SwiftUI
 import SwiftData
 import WebKit
@@ -22,7 +23,7 @@ struct AddEditSymbolView: View {
         _emoji = State(initialValue: symbol?.emoji ?? "😀")
         _word = State(initialValue: symbol?.word ?? "")
         _youtubeURL = State(initialValue: symbol?.youtubeURL ?? "")
-        _category = State(initialValue: symbol?.category ?? SymbolCategory.allCases.first ?? { fatalError("SymbolCategory has no cases") }())
+        _category = State(initialValue: symbol?.category ?? SymbolCategory.allCases.first ?? .feelings)
     }
 
     var body: some View {
@@ -100,7 +101,7 @@ struct AddEditSymbolView: View {
             dismiss()
         } catch {
             // In a real app, surface error; for now, just print and keep the view open
-            print("Failed to save symbol: \(error)")
+            os_log(.error, "Failed to save symbol: %@", error.localizedDescription)
         }
     }
 

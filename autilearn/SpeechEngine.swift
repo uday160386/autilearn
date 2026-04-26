@@ -1,3 +1,4 @@
+import os
 import AVFoundation
 
 @Observable
@@ -16,7 +17,7 @@ class SpeechEngine: NSObject {
             )
             try AVAudioSession.sharedInstance().setActive(true)
         } catch {
-            print("Audio session setup failed: \(error)")
+            os_log(.error, "Audio session setup failed: %@", error.localizedDescription)
         }
     }
 

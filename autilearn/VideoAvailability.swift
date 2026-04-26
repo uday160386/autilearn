@@ -54,8 +54,10 @@ actor VideoAvailabilityChecker {
 
         do {
             var req = URLRequest(url: url, timeoutInterval: 8)
-            req.setValue("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15",
-                         forHTTPHeaderField: "User-Agent")
+            req.setValue(
+                "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+                forHTTPHeaderField: "User-Agent"
+            )
             let (_, response) = try await URLSession.shared.data(for: req)
             if let http = response as? HTTPURLResponse {
                 // 200 = embeddable, 401 = embedding disabled, 404 = video gone
